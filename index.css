@@ -8,10 +8,6 @@ h3 {
 }
 BODY{
   background: 
-    repeating-radial-gradient(
-      circle at 0 0, 
-      #white,
-      #blue 120px
-    );
+    repeating-radial-gradient(circle at 0%, #e6d9b8, white 100px);
  
 }
