@@ -7,11 +7,6 @@ h3 {
   margin-left: 40px;
 }
 BODY{
-  #borderimg {
-  border: 10px solid transparent;
-  padding: 15px;
-  border-image: url(bordercool.png) 30 round;
-}
   background: 
     repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
  
