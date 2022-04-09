@@ -7,5 +7,12 @@ h3 {
   margin-left: 40px;
 }
 BODY{
-  background: repeating-linear-gradient(to bottom, #ffffff, #fff0ab 2%);
+  .repeat {
+  background: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #eee,
+      #ccc 50px
+    );
+ }
 }
