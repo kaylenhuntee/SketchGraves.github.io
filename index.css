@@ -10,8 +10,8 @@ BODY{
   background: 
     repeating-radial-gradient(
       circle at 0 0, 
-      #AliceBlue,
-      #FloralWhite 120px
+      #white,
+      #blue 120px
     );
  
 }
