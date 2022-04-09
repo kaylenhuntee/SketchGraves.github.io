@@ -7,10 +7,5 @@ h3 {
   margin-left: 40px;
 }
 BODY{
-  background: repeating-linear-gradient(
-  to right,
-  #ffeebf,
-  #ffeebf 20px,
-  #fffcf5 20px,
-  #fffcf5 40px);
+  background: repeating-linear-gradient( 90deg, #ffeebf, #fffcf5 10%);
 }
