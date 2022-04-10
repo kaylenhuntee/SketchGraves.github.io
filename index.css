@@ -7,11 +7,7 @@ h3 {
   margin-left: 40px;
 }
 BODY{
-  .border{
-  border: 8px outset red;
-  background-color: lightblue;
-  text-align: center;
-  }
+ 
   background: 
     repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
  
