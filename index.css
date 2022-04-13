@@ -6,8 +6,10 @@ h3 {
   color: grey;
   margin-left: 40px;
 }
+.border{
+  border-style: inset;
+}
 BODY{
- 
   background: 
     repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
  
