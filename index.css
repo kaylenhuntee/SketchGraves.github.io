@@ -8,7 +8,8 @@ h3 {
 }
 .border{
   border-style: inset;
-  font-family: Arial;
+  border-width: 7px;
+  font-family: 'Didot', serif;
 }
 BODY{
   background: 
