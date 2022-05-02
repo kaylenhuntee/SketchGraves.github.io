@@ -8,12 +8,13 @@ h3 {
 }
 .img-gallery{
   width: 60%;
-  maring: 100px auto 50px;
+
+  margin: 100px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(200px, 5vw));
   grid-gap: 30px;
-  padding 70px;
+  padding 10%;
 }
 .img-gallery img{
 width: 100%;
