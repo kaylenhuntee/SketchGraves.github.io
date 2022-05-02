@@ -28,7 +28,7 @@ box-shadow: 6px 6px 2px 1px rgba(113, 106, 176, .2);}
   position: fixed;
   top: 0;
   left: 0;
-/*   display: none; */
+  display: initial;
   align-items: center;
   justify-content: center;
   background: rgba(0,0,0,0.5);
