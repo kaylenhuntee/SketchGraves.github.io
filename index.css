@@ -4,15 +4,15 @@ h2 {
 }
 h3 {
   color: grey;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .img-gallery{
   width: 60%; 
   margin: 100px auto 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
   grid-template-rows: repeat(auto-fit, minmax(200px, 5vw));
-  grid-gap: 30px;
+  grid-gap: 50px;
   padding 10%;
 }
 .img-gallery img{
@@ -35,8 +35,8 @@ transform: scale(1.4);
   justify-content: center;
   background: rgba(0,0,0,0.5);
   z-index: 100;
-
 }
+
 .full-img img{
 width: 40%;
 max-width 500px;
