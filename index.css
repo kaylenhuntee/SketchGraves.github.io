@@ -8,7 +8,6 @@ h3 {
 }
 .img-gallery{
   width: 60%; 
-
   margin: 100px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -21,9 +20,9 @@ width: 100%;
  cursor: pointer;
 }
 .img-gallery img:hover{
-transform: scale(1.5);
-  border-radius: 20px;
-  box-shadow: 10px 5px 5px red;
+transform: scale(1.4);
+  border-radius: 15px;
+  box-shadow: 6px 4px 4px black;
 }
 .full-img{
   width: 50%;
