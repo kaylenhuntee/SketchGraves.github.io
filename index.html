@@ -14,23 +14,24 @@
                             
           
                              <div class="full-img" id= "fullImgBox">
-                                <img src="assets/css/pinata.png id= "fullImg">
+                                <img src="assets/css/pinata.png" id= "fullImg">
                                  <span onclick="closeFullImg()">X</span>
                              </div>
 
                              <div class="img-gallery">
-                                <img src="assets/css/pinata.png" onclick= "openFullImg()">
-                                <img src="assets/css/bunnyboy.jpg" onclick= "openFullImg()">
-                                <img src="assets/css/eyeflame.jpg" onclick= "openFullImg()">
-                                <img src="assets/css/fin3dollarbill.gif" onclick= "openFullImg()">
-                                <img src="assets/css/jawboy.png" onclick= "openFullImg()">
-                                <img src="assets/css/goosedolla.png" onclick= "openFullImg()">          
+                                <img src="assets/css/pinata.png" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/bunnyboy.jpg" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/eyeflame.jpg" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/fin3dollarbill.gif" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/jawboy.png" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/goosedolla.png" onclick= "openFullImg(this.src)">          
                              </div>
                            <script>
                             var fullImgBox = document.getElementbyId("fullImgBox");
                             var fullImg = document.getElementbyId("fullImg");
-                                function openFullImg(){
-                                fullImgBox.style.display = "flex";                                           
+                                function openFullImg(pic){
+                                fullImgBox.style.display = "flex";       
+                                fullImg.src = pic;
                                 }
                            </script>
           
