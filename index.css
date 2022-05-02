@@ -7,7 +7,7 @@ h3 {
   margin-left: 40px;
 }
 .img-gallery{
-  width: 10%;
+  width: 60%;
 maring: 100px auto 50px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
