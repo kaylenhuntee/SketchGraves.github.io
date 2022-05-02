@@ -31,9 +31,10 @@ transform: scale(1.7);
   display: flex
   align-items: center;
   justify-content; center;
+  background: rgba(0,0,0,0.9)
 
 }
-.full-img img:
+.full-img img{
 width: 40%;
 max-width 500px;
 }
