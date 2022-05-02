@@ -8,10 +8,10 @@ h3 {
 }
 .img-gallery{
   width: 60%;
-maring: 100px auto 50px;
+  maring: 100px auto 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250, 1fr));
-  grid-gap: 30px
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
 }
 .img-gallery img{
 width: 100%;
