@@ -10,19 +10,19 @@ h3 {
   width: 60%;
   maring: 100px auto 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(250px, 5vw));
-
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 5vw));
   grid-gap: 30px;
+  padding 70px;
 }
 .img-gallery img{
 width: 100%;
  cursor: pointer;
 }
 .img-gallery img:hover{
-transform: scale(1.7);
+transform: scale(1.5);
   border-radius: 20px;
-  box-shadow: 0 32px 75pxrgpa(68, 77, 136, 0.2);
+  box-shadow: 10px 5px 5px red;
 }
 .full-img{
   width: 20%
