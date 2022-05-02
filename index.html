@@ -29,10 +29,15 @@
                            <script>
                             var fullImgBox = document.getElementbyId("fullImgBox");
                             var fullImg = document.getElementbyId("fullImg");
-                                function openFullImg(pic){
+                               
+                            function openFullImg(pic){
                                 fullImgBox.style.display = "flex";       
                                 fullImg.src = pic;
                                 }
+                            function closeFullImg(){
+                                fullImgBox.style.display = "none";
+                            }
+                               
                            </script>
           
                            <img src="assets/css/pinata.png" alt="eye"height="600"width="500"/>
