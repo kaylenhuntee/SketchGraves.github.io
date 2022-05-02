@@ -38,6 +38,13 @@ transform: scale(1.7);
 width: 40%;
 max-width 500px;
 }
+.full-img span{
+position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+}
 .border{
   border-style: inset;
   border-width: 7px;
