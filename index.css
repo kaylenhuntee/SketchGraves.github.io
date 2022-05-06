@@ -6,7 +6,10 @@ h3 {
   color: grey;
   margin-left: 10px;
 }
-
+.title{
+width: 200px;
+  
+}
 .img-gallery{
   width: 80%; 
   margin: 100px auto 50px;
