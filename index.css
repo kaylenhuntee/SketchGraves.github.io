@@ -9,7 +9,7 @@ h3 {
 .title{
 max-width 100px;
 height: auto;  
-box-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+text-shadow:0 0 6px #FF0000, 0 0 10px #0000FF;
 
 }
 .img-gallery{
