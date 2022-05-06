@@ -7,8 +7,9 @@ h3 {
   margin-left: 10px;
 }
 .title{
-max-width: 10%;
+max-width 500px;
 height: auto;  
+
 }
 .img-gallery{
   width: 80%; 
