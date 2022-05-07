@@ -33,14 +33,17 @@ transform: scale(2);
 .full-img{
   width: 100%;
   height: 100vh;
-  background: rgba(0,0,0,0.9);
   position: fixed;
   top: 0;
   left: 0;
   display: none;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   z-index: 100;
+}
+#fullImgBox{
+  background: rgba(0,0,0,0.9);
+      z-index: 100;
 }
 
 .full-img img{
