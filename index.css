@@ -1,6 +1,6 @@
 
 #title{
-/* filter: drop-shadow(5px 5px 2px #706100); */
+filter: drop-shadow(5px 5px 2px #FFFFFF);
 }
 #logo{
 position:absolute;
@@ -8,7 +8,7 @@ position:absolute;
     height: 20px;
     top:50px;
     right:0px;
-    opacity: 0.5;
+/*     opacity: 0.5; */
 
 }
 .img-gallery{
@@ -28,7 +28,6 @@ cursor: pointer;
 .img-gallery img:hover{
 transform: scale(2);
   border-radius: 15px;
-/* box-shadow: 6px 6px 2px 1px rgba(113, 106, 176, .2); */
 }
 
 .full-img{
