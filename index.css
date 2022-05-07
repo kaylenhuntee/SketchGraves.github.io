@@ -7,7 +7,7 @@ h3 {
   margin-left: 10px;
 }
 #title{
-filter: drop-shadow(30px 10px 4px #4444dd);
+filter: drop-shadow(15px 5px 2px #FFFFFF);
 }
 #logo{
 position:fixed;
