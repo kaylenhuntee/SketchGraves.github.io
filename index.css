@@ -12,7 +12,7 @@ height: auto;
 text-shadow:0 0 10px #FF0000, 0 0 15px #0000FF;
 }
 .logo{
-position:fixed;
+position:absolute;
     top:50px;
     right:50px;
 }
