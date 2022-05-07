@@ -6,13 +6,11 @@ h3 {
   color: grey;
   margin-left: 10px;
 }
-/* #title{
-max-width 100px;
-height: auto;  
-text-shadow:0 0 10px #FF0000, 0 0 15px #0000FF;
-} */
+#title{
+filter: drop-shadow(30px 10px 4px #4444dd);
+}
 #logo{
-position:absolute;
+position:fixed;
     top:50px;
     right:50px;
 }
