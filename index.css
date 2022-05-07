@@ -30,7 +30,7 @@ transform: scale(1.8);
   border-radius: 15px;
 }
 
-.full-img{
+/* .full-img{
   width: 1000px;
   height: 100vh;
   background: rgba(0,0,0,0.9);
@@ -39,7 +39,7 @@ transform: scale(1.8);
   align-items: start;
   justify-content: center;
   z-index: 100;
-}
+} */
 /* #fullImgBox{
       z-index: 100;
 }
