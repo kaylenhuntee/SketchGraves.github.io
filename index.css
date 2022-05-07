@@ -8,7 +8,7 @@ position:absolute;
     height: 20px;
     top:50px;
     right:100px;
-/*     opacity: 0.5; */
+    opacity: 0.5;
 
 }
 .img-gallery{
@@ -26,26 +26,24 @@ cursor: pointer;
 }
 
 .img-gallery img:hover{
-transform: scale(2);
+transform: scale(1.8);
   border-radius: 15px;
 }
 
 .full-img{
-  width: 100%;
+  width: 1000px;
   height: 100vh;
+  background: rgba(0,0,0,0.9);
   position: fixed;
-  top: 0;
-  left: 0;
   display: none;
   align-items: start;
   justify-content: center;
   z-index: 100;
 }
-#fullImgBox{
-  background: rgba(0,0,0,0.9);
+/* #fullImgBox{
       z-index: 100;
 }
-
+ */
 .full-img img{
 width: 70%;
 max-width 500px;
