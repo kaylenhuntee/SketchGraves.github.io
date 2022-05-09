@@ -17,6 +17,8 @@ position:absolute;
   font-family: 'Didot', serif;
   font-size: 20;
   border-color: #23124a;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .img-gallery{
