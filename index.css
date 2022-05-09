@@ -13,12 +13,13 @@ position:absolute;
 }
 .header{
   border-style: outset;
-  border-width: 7px;
   font-family: 'Didot', serif;
   font-size: 20;
   border-color: #23124a;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 12px;
+  background: rgba(0,0,0,0.5);
+
 }
 
 .img-gallery{
