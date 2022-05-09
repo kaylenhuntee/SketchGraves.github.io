@@ -80,5 +80,5 @@ position: absolute;
   border-color: antiqueWhite;
 }
 BODY{
-background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, black 200px);
+background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
 }
