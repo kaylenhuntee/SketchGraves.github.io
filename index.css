@@ -42,21 +42,21 @@ transform: scale(1.8);
   justify-content: center;
   z-index: 100;
 }
-/* 
+
 #fullImgBox{
   top : 0;
   left: 0;
   width: 100px;
   height: 100vh;
   background: rgba(0,0,0,0.5);
-} */
+}
 
-.full-img img{
+/* .full-img img{
 width: 70%;
 max-width 500px;
-      border-style: inset;
+border-style: inset;
   border-width: 7px;
-}
+} */
 
 .full-img span{
 position: absolute;
