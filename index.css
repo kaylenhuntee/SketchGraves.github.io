@@ -2,6 +2,7 @@
 #title{
 filter: drop-shadow(5px 5px 2px #FFFFFF);
 }
+
 #logo{
 position:absolute;
     width: 20px;
@@ -9,8 +10,8 @@ position:absolute;
     top:50px;
     right:100px;
     opacity: 0.5;
-
 }
+
 .img-gallery{
   width: 80%; 
   margin: 100px auto 50px;
@@ -43,13 +44,13 @@ transform: scale(1.8);
   z-index: 100;
 }
 
-#fullImgBox{
+/* #fullImgBox{
   top : 0;
   left: 0;
   width: 100px;
   height: 100vh;
   background: rgba(0,0,0,0.5);
-}
+} */
 
 /* .full-img img{
 width: 70%;
