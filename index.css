@@ -40,7 +40,8 @@ transform: scale(1.8);
   display: none;
   align-items: start;
   justify-content: center;
-/*   z-index: 100; */
+  z-index: 100;
+}
 
 
 
