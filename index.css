@@ -29,7 +29,7 @@ cursor: pointer;
 transform: scale(1.8);
   border-radius: 15px;
 }
-
+/* 
 .full-img{
   top : 0;
   left: 0;
@@ -41,16 +41,16 @@ transform: scale(1.8);
   align-items: start;
   justify-content: center;
   z-index: 100;
-}
+} */
 
 
 
-.full-img img{
+/* .full-img img{
 width: 70%;
 max-width 500px;
       border-style: inset;
   border-width: 7px;
-}
+} */
 
 .full-img span{
 position: absolute;
