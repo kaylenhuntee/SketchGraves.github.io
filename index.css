@@ -30,7 +30,7 @@ cursor: pointer;
 transform: scale(1.8);
   border-radius: 15px;
 }
-
+/* 
 .full-img{
   top : 0;
   left: 0;
@@ -42,7 +42,7 @@ transform: scale(1.8);
   align-items: start;
   justify-content: center;
   z-index: 100;
-}
+} */
 
 #fullImg{
 width: 500px;
@@ -57,15 +57,12 @@ z-index: 100;
 align-items: start;
 justify-content: center;
 }
-/* #fullImgBox{
-background: rgba(0,0,0,0.5);
-} */
 
 .full-img span{
 position: absolute;
   top: 5%;
   right: 5%;
-  font-size: 30px;
+  font-size: 50px;
   color: #fff;
   cursor: pointer;
 }
@@ -76,5 +73,5 @@ position: absolute;
   border-color: antiqueWhite;
 }
 BODY{
-background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
+background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, black 200px);
 }
