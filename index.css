@@ -47,6 +47,8 @@ transform: scale(1.8);
 .full-img img{
 width: 70%;
 max-width 500px;
+      border-style: inset;
+  border-width: 7px;
 }
 
 .full-img span{
