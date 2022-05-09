@@ -44,21 +44,17 @@ transform: scale(1.8);
   z-index: 100;
 }
 
-/* #fullImgBox{
-  top : 0;
-  left: 0;
-  width: 100px;
-  height: 100vh;
-  background: rgba(0,0,0,0.5);
-} */
-
 #fullImg{
-width: 50px;
+width: 500px;
+height: 100vh;
 max-width 500px;
-}
-#fullImgBox{
+top : 0;
+left: 0;
 background: rgba(0,0,0,0.5);
 }
+/* #fullImgBox{
+background: rgba(0,0,0,0.5);
+} */
 
 .full-img span{
 position: absolute;
@@ -75,5 +71,5 @@ position: absolute;
   border-color: antiqueWhite;
 }
 BODY{
-background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, black 200px);
+background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
 }
