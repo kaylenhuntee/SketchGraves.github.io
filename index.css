@@ -52,12 +52,13 @@ transform: scale(1.8);
   background: rgba(0,0,0,0.5);
 } */
 
-/* .full-img img{
-width: 70%;
+.full-img fullImg{
+width: 10%;
 max-width 500px;
-border-style: inset;
-  border-width: 7px;
-} */
+}
+.full-img fullImgBox{
+background: rgba(0,0,0,0.5);
+}
 
 .full-img span{
 position: absolute;
