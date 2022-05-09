@@ -52,11 +52,11 @@ transform: scale(1.8);
   background: rgba(0,0,0,0.5);
 } */
 
-.full-img fullImg{
-width: 10%;
+#fullImg{
+width: 50px;
 max-width 500px;
 }
-.full-img fullImgBox{
+#fullImgBox{
 background: rgba(0,0,0,0.5);
 }
 
