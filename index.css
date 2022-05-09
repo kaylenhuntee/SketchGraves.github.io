@@ -11,9 +11,9 @@ position:absolute;
     right:100px;
     opacity: 0.5;
 }
-.h1{
-    border-style: outset;
-    border-width: 7px;
+.header{
+  border-style: outset;
+  border-width: 7px;
   font-family: 'Didot', serif;
   font-size: 20;
   border-color: #23124a;
