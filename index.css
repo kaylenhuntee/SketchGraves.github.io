@@ -1,6 +1,10 @@
 
 #title{
 filter: drop-shadow(5px 5px 2px #FFFFFF);
+  position:absolute;
+  top:10px;
+  left:10px;  
+   opacity: 1;
 }
 
 #logo{
@@ -20,7 +24,13 @@ position:absolute;
   letter-spacing: 30px;
   background: rgba(0,0,0,0.5);
   color: white;
-
+}
+.sub_header{
+  font-family: 'Didot', serif;
+  font-size: 8;
+  text-align: center;
+  letter-spacing: 30px;
+  color: black;
 }
 
 .img-gallery{
