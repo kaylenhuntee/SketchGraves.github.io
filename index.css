@@ -68,20 +68,11 @@ transform: scale(2);
   justify-content: center;
   z-index: 100;
 }
-/* 
 #fullImg{
-width: 500px;
+width: 800px;
 height: 100vh;
-max-width 500px;
-position: fixed;
-display: none;
-top : 100;
-left: 100;
-background: rgba(0,0,0,0.5);
-z-index: 100;
-align-items: start;
-justify-content: center;
-} */
+position: absolute;
+}
 
 .full-img span{
 position: absolute;
