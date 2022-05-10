@@ -64,6 +64,7 @@ transform: scale(2);
 }
 
 .full-img img{
+top: 15px;
 width: 50%;
 height: auto;
 position: absolute;
