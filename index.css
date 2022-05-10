@@ -8,7 +8,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
 .khLogo{
   border-style: outset;
   background: rgba(0,0,0,0.5);
-  right 30px;
+  left 30px;
   top 30px;
 
 }
