@@ -63,7 +63,7 @@ transform: scale(2);
   z-index: 100;
 }
 #fullImg{
-width: 100px;
+width: 600px;
 position: absolute;
 }
 .fullImg{
