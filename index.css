@@ -8,10 +8,11 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
 
 #logo{
     position:absolute;
-    top:50px;
-    right:100px;
+    top:40px;
+    right:40px;
     opacity: 0.5;
 }
+
 .header{
   border-style: outset;
   font-family: 'Didot', serif;
