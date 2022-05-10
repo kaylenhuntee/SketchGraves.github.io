@@ -86,6 +86,4 @@ position: absolute;
 }
 BODY{
 background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
-background-image: url("khlogo.png");
-
 }
