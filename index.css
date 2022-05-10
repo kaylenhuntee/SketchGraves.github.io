@@ -62,13 +62,9 @@ transform: scale(2);
   justify-content: center;
   z-index: 100;
 }
-/* #fullImg{
-width: 600px;
-position: absolute;
-} */
+
 .fullImg{
-min-width: 500px;
-max-width: 800px;
+width: 500px;
 position: absolute;
 }
 
