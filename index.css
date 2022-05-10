@@ -6,7 +6,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
   left:10px;  
 }
 
-#logo{
+.logo{
     position:absolute;
     top: 5%;
     right: 5%;
@@ -64,7 +64,7 @@ transform: scale(2);
 }
 
 .fullImg{
-width: 500px;
+width: 200px;
 position: absolute;
 }
 
@@ -83,5 +83,5 @@ position: absolute;
   border-color: antiqueWhite;
 }
 BODY{
-background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, black 200px);
+background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
 }
