@@ -9,7 +9,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
 #logo{
     position:absolute;
     top:40px;
-    right:40px;
+    right:400px;
     opacity: 0.5;
 }
 
