@@ -62,12 +62,12 @@ transform: scale(2);
   justify-content: center;
   z-index: 100;
 }
-#fullImg{
+/* #fullImg{
 width: 600px;
 position: absolute;
-}
+} */
 .fullImg{
-width: 100px;
+width: 600px;
 position: absolute;
 }
 
