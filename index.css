@@ -5,9 +5,10 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
   top:10px;
   left:10px;  
 }
-.khLogo{
- background-image: url("khlogo.png");
-display : flex;
+.khLogo img{
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 .header{
@@ -85,4 +86,6 @@ position: absolute;
 }
 BODY{
 background-image: repeating-radial-gradient(circle at 0%, #e6d9b8, white 200px);
+background-image: url("khlogo.png");
+
 }
