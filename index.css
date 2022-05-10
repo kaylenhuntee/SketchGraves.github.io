@@ -6,11 +6,8 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
   left:10px;  
 }
 .khLogo{
-  border-style: outset;
-  background: rgba(0,0,0,0.5);
-  left 30px;
-  top 30px;
-
+ background-image: url("khlogo.png");
+display : flex;
 }
 
 .header{
