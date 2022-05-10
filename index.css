@@ -10,7 +10,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
     position:absolute;
     top: 5%;
     right: 5%;
-    opacity: 0.5;
+    opacity: 0.1;
 }
 
 .header{
