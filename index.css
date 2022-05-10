@@ -5,11 +5,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
   top:10px;
   left:10px;  
 }
-.khLogo{
-  border-style: outset;
-  background: rgba(0,0,0,0.5);
-  right 0px;
-}
+
 .header{
   border-style: outset;
   font-family: 'Didot', serif;
