@@ -18,7 +18,7 @@ position:absolute;
 .header{
   border-style: outset;
   font-family: 'Didot', serif;
-  font-size: 10;
+  font-size: 12;
   border-color: #23124a;
   text-align: center;
   letter-spacing: 30px;
@@ -27,7 +27,7 @@ position:absolute;
 }
 .sub_header{
   font-family: 'Didot', serif;
-  font-size: 8;
+  font-size: 10;
   text-align: center;
   letter-spacing: 30px;
   color: black;
@@ -37,7 +37,7 @@ position:absolute;
   width: 80%; 
   margin: 100px auto 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-auto-rows: 250px;
   grid-gap: 100px;
 }
@@ -71,8 +71,8 @@ height: 100vh;
 max-width 500px;
 position: fixed;
 display: none;
-top : 0;
-left: 0;
+top : 100;
+left: 100;
 background: rgba(0,0,0,0.5);
 z-index: 100;
 align-items: start;
