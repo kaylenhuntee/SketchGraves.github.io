@@ -1,6 +1,7 @@
 
 #title{
 filter: drop-shadow(5px 5px 2px #FFFFFF);
+  display: block ;
   width: 300px;
   height: 300px;
   position:absolute;
@@ -9,6 +10,7 @@ filter: drop-shadow(5px 5px 2px #FFFFFF);
 }
 
 #logo{
+    display: block ;
     width: 120px;
     height: 120px;
     position:absolute;
