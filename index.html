@@ -72,9 +72,12 @@
                                 fullImg.src = pic;
                                 var imgText = document.getElementById("imgtext");
                                 imgText.innerHTML = imgs.alt;
+                                 expandImg.parentElement.style.display = "block";
                                 }
                             function closeFullImg(){
                                 fullImgBox.style.display = "none";
+                                expandImg.parentElement.style.display = "none";
+
                             }
                            </script>
           
