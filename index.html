@@ -59,6 +59,9 @@
                                 <img src="assets/css/octapusninja.png" onclick= "openFullImg(this.src)"> 
 
                              </div>
+          
+                             <div id="imgtext"></div>
+
                                                                                                   
                            <script>
                             var fullImgBox = document.getElementById("fullImgBox");
@@ -67,6 +70,8 @@
                             function openFullImg(pic){
                                 fullImgBox.style.display = "flex";       
                                 fullImg.src = pic;
+                                var imgText = document.getElementById("imgtext");
+                                imgText.innerHTML = imgs.alt;
                                 }
                             function closeFullImg(){
                                 fullImgBox.style.display = "none";
