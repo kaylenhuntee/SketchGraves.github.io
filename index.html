@@ -73,14 +73,14 @@
                             var fullImg = document.getElementById("fullImg");
                             var fullImgCap = document.getElementById("fullImgCap");
                                
-                            function openFullCap(cap){
+                            function openImgCap(cap){
                                 fullImgCap.style.display = "flex";       
                                 }
                                
                             function openFullImg(pic){
                                 fullImgBox.style.display = "flex";       
                                 fullImg.src = pic;
-                                openFullCap();
+                                openImgCap(pic);
 //                                 fullImgCap.style.display = "flex";       
                                 }
                                 
