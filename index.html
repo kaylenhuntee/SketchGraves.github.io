@@ -26,11 +26,12 @@
                              <div class = "sub_header"><h3> drawings </h3></div>
                                                                
                              <div class="img-gallery">
-                                <img src="assets/css/pieta.png" alt="Pietá" onclick= "openFullImg(this.src)">
-                                <figcaption onclick = "openImgCap(this.src)"> Drawing of Michaelangelo's Pietá </figcaption>
+                                <img src="assets/css/pieta.png" alt="Pietá" onclick= "openFullImg(this.src)" onclick= "openImgCap(this.src)">
+                                <figcaption> Drawing of Michaelangelo's Pietá </figcaption>
                                  
-                                <img src="assets/css/perception.png" alt="Perception" onclick= "openFullImg(this.src)">
+                                <img src="assets/css/perception.png" alt="Perception" onclick= "openFullImg(this.src)" onclick= "openImgCap(this.src)">
                                 <figcaption> An abstract rendition of Perception </figcaption>
+                                 
                                 <img src="assets/css/bunnyboy.png" alt="Bunny Boy" onclick= "openFullImg(this.src)">
                                 <img src="assets/css/deerhead.png" alt="Deer Head" onclick= "openFullImg(this.src)">
                                 <img src="assets/css/handhearth.png" alt="Hand Hearth" onclick= "openFullImg(this.src)">
@@ -77,12 +78,13 @@
                             function openFullImg(pic){
                                 fullImgBox.style.display = "flex";       
                                 fullImg.src = pic;
+                                fullImgCap.style.display = "flex";       
+
                                 }
                                                                  
-                            function openImgCap(cap){
-                            fullImgCap.style.display = "flex";
-                                     
-                            }
+//                             function openImgCap(cap){
+//                             fullImgCap.style.display = "flex";       
+//                             }
                              
                             function closeFullImg(){
                                 fullImgBox.style.display = "none";
