@@ -55,6 +55,7 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: center;
+  display: none;
 }
 
 #imgtext {
