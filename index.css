@@ -49,6 +49,14 @@ transform: scale(2);
   border-radius: 15px;
 }
 
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
 #imgtext {
   position: absolute;
   bottom: 15px;
