@@ -19,6 +19,7 @@
                                                                                       
                              <div class="full-img" id="fullImgBox">
                                 <img src="assets/css/pinata.png" id= "fullImg">
+                                <figcaption id = fullImgCap> Drawing of Michaelangelo's Pietá </figcaption>
                                  <span onclick="closeFullImg()">X</span>
                              </div>
                              <div class = "header"><h1> Gallery </h1></div>
@@ -26,7 +27,10 @@
                                                                
                              <div class="img-gallery">
                                 <img src="assets/css/pieta.png" alt="Pietá" onclick= "openFullImg(this.src)">
+                                <figcaption onclick = "openImgCap(this.src)"> Drawing of Michaelangelo's Pietá </figcaption>
+                                 
                                 <img src="assets/css/perception.png" alt="Perception" onclick= "openFullImg(this.src)">
+                                <figcaption> An abstract rendition of Perception </figcaption>
                                 <img src="assets/css/bunnyboy.png" alt="Bunny Boy" onclick= "openFullImg(this.src)">
                                 <img src="assets/css/deerhead.png" alt="Deer Head" onclick= "openFullImg(this.src)">
                                 <img src="assets/css/handhearth.png" alt="Hand Hearth" onclick= "openFullImg(this.src)">
@@ -68,17 +72,21 @@
                            <script>
                             var fullImgBox = document.getElementById("fullImgBox");
                             var fullImg = document.getElementById("fullImg");
+                            var fullImgCap = document.getElementById("fullImgCap");
                                
                             function openFullImg(pic){
                                 fullImgBox.style.display = "flex";       
                                 fullImg.src = pic;
-                                var imgText = document.getElementById("imgtext");
-                                imgText.innerHTML = imgs.alt;
-                                 expandImg.parentElement.style.display = "block";
                                 }
+                                                                 
+                            function openImgCap(cap){
+                            fullImgCap.style.display = "flex";
+                                     
+                            }
+                             
                             function closeFullImg(){
                                 fullImgBox.style.display = "none";
-                                expandImg.parentElement.style.display = "none";
+                                fullImgCap.style.display = "none";
 
                             }
                            </script>
