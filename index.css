@@ -45,7 +45,7 @@ cursor: pointer;
 }
 
 .img-gallery img:hover{
-transform: scale(2.3);
+transform: scale(2);
   border-radius: 15px;
 }
 
@@ -82,8 +82,8 @@ figcaption {
 justify-content: center;
 align-items: center;
 top: 15px;
-width: 70%;
-max-width: 600px;
+width: 75%;
+max-width: 700px;
 max-height: 1200px;
 height: auto;
 position: absolute;
